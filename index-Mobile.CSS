@@ -1,0 +1,93 @@
+@media(min-width:100px) and (max-width: 700px){
+
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: hsl(30, 38%, 92%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.card {
+        width: 74%;
+        height: fit-content;
+        background-color: hsl(0, 0%, 100%);
+        position: relative;
+        border-radius: 10PX;
+        overflow: hidden;
+        display: inline-block;
+        margin: 13%;
+        margin-bottom: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    img.one {
+        display: none;
+    }
+    img.two {
+
+        width:100%;
+        height: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    div.des {
+        padding: 4%;
+    }
+    
+    p.top {
+        font-family: "Montserrat";
+        letter-spacing: 5px;
+    }
+    
+    p.head {
+        font-family: "Fraunces";
+        font-size: 30px;
+        font-weight: 700;
+        margin: -1px;
+    }
+    
+    p:last-of-type {
+        font-family: "Montserrat";
+    }
+    
+    span.price {
+        color: hsl(158, 36%, 37%);
+        font-family: "Fraunces";
+        font-size: 40px;
+        vertical-align: middle;
+        margin-right: 15px;
+        font-weight: 700;
+    }
+    
+    del{font-family:"Fraunces" ;}
+    
+    button {
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Montserrat" ;
+        font-weight: 500;
+        background-color:hsl(158, 36%, 37%) ;
+        border: none;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        position: relative;
+    }
+    
+    button:hover {
+        cursor: pointer;
+        background-color: #1a4031;
+    }
+
+    .attribution { font-size: 20px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
